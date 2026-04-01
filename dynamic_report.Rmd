@@ -60,7 +60,8 @@ This report analyzes car parking patterns based on `r total_logs` recorded obser
 
 additionally, the highest level of occupancy recorded in this period reached a peak of `r peak_occupancy` cars.
 
-###Weekly Usage Trends The following chart illustrates how parking demand fluctuates throughout the week.
+### Weekly Usage Trends     
+The following chart illustrates how parking demand fluctuates throughout the week.
 
 ```{r}
 # Chart 1: Average Parked Cars per Day
@@ -77,7 +78,7 @@ latest_data %>%
   theme_minimal()
 ```
 
-###Time Interval Distribution  
+### Time Interval Distribution      
 This visualization identifies which times of the day experience the highest volume of parked vehicles.
 
 ```{r}
