@@ -56,11 +56,9 @@ h2 {
 
 This report analyzes car parking patterns based on `r total_logs` recorded observations. By tracking the number of cars parked across different days and time intervals, we can identify peak usage periods.
 
-<div class="highlight-box">
-  `r paste0("The data shows that the average number of cars parked across all sessions is ", round(overall_avg), ".")` 
-  
-  Additionally, the highest level of occupancy recorded in this period reached a peak of <span class="stat-value">`r peak_occupancy`</span> cars.
-</div>
+`r paste0("The data shows that the average number of cars parked across all sessions is ", round(overall_avg), ".")`
+
+additionally, the highest level of occupancy recorded in this period reached a peak of `r peak_occupancy` cars.
 
 Weekly Usage Trends
 The following chart illustrates how parking demand fluctuates throughout the week.
