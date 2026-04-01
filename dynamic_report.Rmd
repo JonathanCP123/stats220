@@ -60,7 +60,7 @@ r paste0("The data shows that the average number of cars parked across all sessi
 
 additionally, the highest level of occupancy recorded in this period reached a peak of r peak_occupancy cars.
 
-Weekly Usage Trends
+Weekly Usage Trends  
 The following chart illustrates how parking demand fluctuates throughout the week.
 
 ```{r}
@@ -78,7 +78,7 @@ latest_data %>%
   theme_minimal()
 ```
 
-Time Interval Distribution
+Time Interval Distribution  
 This visualization identifies which times of the day experience the highest volume of parked vehicles.
 
 ```{r}
